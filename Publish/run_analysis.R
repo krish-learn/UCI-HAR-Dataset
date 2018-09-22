@@ -14,6 +14,8 @@
 
 ##Download data
 
+setwd("C:/Users/Raman/Documents/AI/JHU_DataScience/Getting&CleaningData/data/UCI HAR Dataset/UCI HAR Dataset")
+
 fileurl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(fileurl, "dataset.zip")
 unzip("Dataset.zip", exdir = getwd())
